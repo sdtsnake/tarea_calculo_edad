@@ -27,8 +27,7 @@ public class CalculoEdadTarea {
                 main(args);
             }
         }else{
-            JOptionPane.showConfirmDialog(null,"Usted tiene una de edad de : "+ periodo.getYears() + " años","Resultado", JOptionPane.CLOSED_OPTION,
-                    JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showConfirmDialog(null,"Usted tiene una de edad de : "+ periodo.getYears() + " años","Resultado", JOptionPane.CLOSED_OPTION,JOptionPane.INFORMATION_MESSAGE);
         }
 
     }
